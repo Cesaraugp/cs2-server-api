@@ -2,7 +2,11 @@
   "name": "@cs2-server-api/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "next build",
+    "lint": "eslint ./src",
+    "test": "node ./run-tests.js"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^10.0.2",
